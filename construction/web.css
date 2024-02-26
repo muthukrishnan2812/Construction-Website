@@ -16,9 +16,7 @@
         flex-direction: column;
         width: 100%;
     }
-    #background{
-        background-image: url(./images/building-mobile.png);
-    }
+    
     *{
         width: 100%;
     }
