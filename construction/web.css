@@ -16,7 +16,6 @@
         flex-direction: column;
         width: 100%;
     }
-    
     *{
         width: 100%;
     }
@@ -34,8 +33,8 @@ nav{
 @media (max-width:600px) {
     #background{
         background-image: url('./images/building-mobile.png');
-        height: 100%;
         background-size: cover;
+        height: 100vh;
     }
     .img1{
         display: none;
@@ -121,6 +120,18 @@ img{
 }
 .services{
     text-align: center;
+}
+#icon{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:600px) {
+    #icon{
+        display: block;
+    }
+    
 }
 
 
